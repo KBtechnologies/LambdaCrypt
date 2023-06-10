@@ -1,0 +1,42 @@
+SYSTEM	MODULATION	FEC FRAME	ROLL OFF FACTOR	SYMBOL RATE	FEC	GROSS BANDWITH	NET DATARATE	COMMENTS	SOURCE
+DVB-S2X	BPSK	16200	0,35	666 kSymb/s	11/45	0,999 MHz	0,144 Mbit/s	Narrowest Bandwith Expected to be supported by LambdaCrypt	https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	32APSK	32400	0,05	800 kSymb/s	2/3	0,960 MHz	2,548 Mbit/s		https://umt-tv.com/pages/dvb_s2x
+DVB-S2	32APSK	64800	0,25	1.250 kSymb/s	2/3	1,750 MHz	4,036 Mbit/s		https://umt-tv.com/pages/dvb_s2
+DVB-S	BPSK	64800	0,35	2.000 kSymb/s	2/3	3,000 MHz	1,234 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S2	BPSK	16200	0,20	2.400 kSymb/s	2/3	3,240 MHz	1,521 Mbit/s		https://umt-tv.com/pages/dvb_s2
+DVB-S2	BPSK	64800	0,25	3.500 kSymb/s	2/3	4,900 MHz	2,272 Mbit/s		https://umt-tv.com/pages/dvb_s2
+DVB-S2X	BPSK	16200	0,05	7.000 kSymb/s	11/45	8,400 MHz	1,516 Mbit/s	Lowest Bandwith Specified in DVB-S2X (SPSC)	https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	16APSK	32400	0,05	7.000 kSymb/s	2/3	8,400 MHz	17,88 Mbit/s		https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	32APSK	32400	0,05	7.000 kSymb/s	2/3	8,400 MHz	22,60 Mbit/s		https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	256APSK	64800	0,05	7.000 kSymb/s	7/9	8,400 MHz	41,94 Mbit/s	Highest Bandwith Specified with DVB-S2X (SPSC)	https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	256APSK	64800	0,10	7.000 kSymb/s	3/4	8,750 MHz	41,30 Mbit/s	Highest Bandwith Specified with DVB-S2X (SPSC)	https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	64APSK	32400	0,15	7.000 kSymb/s	5/6	9,100 MHz	33,14 Mbit/s		https://umt-tv.com/pages/dvb_s2x
+DVB-S2	BPSK	16200	0,20	7.000 kSymb/s	1/2	9,450 MHz	3,282 Mbit/s	Lowest Bandwith Specified in DVB-S2 (SPSC)	https://umt-tv.com/pages/dvb_s2
+DVB-S2X	16APSK	32400	0,25	7.000 kSymb/s	2/3	9,800 MHz	17,88 Mbit/s	Balanced DVB-S2X Setup (SPSC)	https://umt-tv.com/pages/dvb_s2x
+DVB-S2	32APSK	64800	0,25	7.000 kSymb/s	3/4	9,800 MHz	25,92 Mbit/s	Highest Bandwith Specified in DVB-S2 (SPSC)	https://umt-tv.com/pages/dvb_s2
+DVB-S2x	bpsk	16200	0,35	7.000 kSymb/s	1/2	10,50 MHz	3,282 Mbit/s	Low Bandwith as per DVB-S2X (SPSC)	https://umt-tv.com/pages/dvb_s2
+DVB-S	BPSK	64800	0,35	7.000 kSymb/s	1/2	10,50 MHz	3,225 Mbit/s	Lowest Bandwith Specified with DVB-S	https://umt-tv.com/pages/dvb_s
+DVB-S	BPSK	64800	0,35	7.000 kSymb/s	2/3	10,50 MHz	4,322 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	BPSK	64800	0,35	7.000 kSymb/s	3/4	10,50 MHz	4.838 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	BPSK	64800	0,35	7.000 kSymb/s	5/6	10,50 MHz	5.354 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	BPSK	64800	0,35	7.000 kSymb/s	7/8	10,50 MHz	5.644 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	QPSK	64800	0,35	7.000 kSymb/s	1/2	10,50 MHz	6,450 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	QPSK	64800	0,35	7.000 kSymb/s	3/4	10,50 MHz	9,676 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	QPSK	64800	0,35	7.000 kSymb/s	7/8	10,50 MHz	11,29 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	DSNG 8PSK	64800	0,35	7.000 kSymb/s	2/3	10,50 MHz	12,97 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	DSNG 16QAM	64800	0,35	7.000 kSymb/s	3/4	10,50 MHz	19,35 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S	DSNG 16QAM	64800	0,35	7.000 kSymb/s	7/8	10,50 MHz	22,58 Mbit/s	Highest Bandwith Specifed with DVB-S (SCPC)	https://umt-tv.com/pages/dvb_s
+DVB-S2	8PSK	64800	0,35	7.200 kSymb/s	3/4	10,80 MHz	16,04 Mbit/s	Used for EBU Feeds (SCPC)	https://www.lyngsat.com/Hotbird-13B-13E-13G.html
+DVB-S2	QPSK	64800	0,35	12.500 kSymb/s	5/6	18,75 MHz	18,59 Mbit/s	Atypical Program Feed (MCPC)	https://www.lyngsat.com/muxes/Eutelsat-Ka-Sat-9A_Ireland_20192-L.html
+DVB-S2	8PSK	64800	0,35	15.000 kSymb/s	5/6	22,50 MHz	37,03 Mbit/s	Small Program Feed (MCPC)	https://www.lyngsat.com/muxes/Galaxy-13-Horizons-1_C_4009-V.html
+DVB-S2	8PSK	64800	0,35	27.500 kSymb/s	3/4	41,25 MHz	61,27 Mbit/s	Typical Program Feed (MCPC)	https://www.lyngsat.com/Hotbird-13B-13E-13G.html
+DVB-S2X	256APSK	64800	0,05	34.000 kSymb/s	3/4	40,80 MHz	200,6 Mbit/s	Highest Bandwith Specified with DVB-S2X (MCPC)	https://umt-tv.com/pages/dvb_s2x
+DVB-S	BPSK	64800	0,35	27.500 kSymb/s	2/3	41,25 MHz	16.98 Mbit/s	Typical Program Feed (MCPC)	https://www.lyngsat.com/muxes/Hotbird-13G_beam_10992-V.html
+DVB-S	DSNG 8PSK	64800	0,35	30.000 kSymb/s	2/3	45,00 MHz	55,57 Mbit/s		https://umt-tv.com/pages/dvb_s
+DVB-S2	8PSK	64800	0,35	30.000 kSymb/s	3/4	45,00 MHz	66,84 Mbit/s	Typical Program Feed (MCPC)	https://www.lyngsat.com/Hotbird-13B-13E-13G.html
+DVB-S2	32APSK	64800	0,20	34.000 kSymb/s	9/10	45,90 MHz	151,4 Mbit/s	Highest Bandwith Specified with DVB-S (MCPC)	https://umt-tv.com/pages/dvb_s2
+DVB-S	DSNG 16QAM	64800	0,35	34.000 kSymb/s	7/8	51,00 MHz	109,7 Mbit/s	Highest Bandwith Specified with DVB-S (MCPC)	https://umt-tv.com/pages/dvb_s
+DVB-S	QPSK	64800	0,35	34.000 kSymb/s	7/8	51,00 MHz	54,83 Mbit/s	Highest Bandwith Common with DVB-S (MCPC)	https://umt-tv.com/pages/dvb_s
+DVB-S2X	256APSK	64800	0,35	60.000 kSymb/s	2/3	90,00 MHz	316,3 Mbit/s		https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	256APSK	64800	0,35	68.000 kSymb/s	3/4	95,20 MHz	401,3 Mbit/s		https://umt-tv.com/pages/dvb_s2x
+DVB-S2X	256APSK	64800	0,35	69.420 kSymb/s	3/4	97,19 MHz	409,6 Mbit/s		https://umt-tv.com/pages/dvb_s2x
