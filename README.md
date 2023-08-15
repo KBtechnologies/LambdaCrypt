@@ -31,3 +31,26 @@ Most [Videoconferencing](https://en.wikipedia.org/wiki/Videotelephony#Videoconfe
   - [OTP is basically perfectly secure](https://en.wikipedia.org/wiki/One-time_pad#Perfect_secrecy) in it's encryption and can't be cracked without the key.
 - OFC using [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP) & [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) for encryption, decryption, authentification and digital signatures is still a core part of the system,
   - [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)[-256](https://en.wikipedia.org/wiki/AES_implementations)[-CBC](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)) encryption can also be utilized for data streams if OTP keys have not been deployed yet.
+
+---
+## Acknowledgements
+### Standards
+#### [DVB](https://en.wikipedia.org/wiki/DVB)
+- Espechally [DVB-S](https://en.wikipedia.org/wiki/DVB-S), [DVB-S2](https://en.wikipedia.org/wiki/DVB-S2) & [DVB-S2X](https://en.wikipedia.org/wiki/DVB-S2X) for their efficiency in standards in modulating signals.
+  - [DVB-RCS](https://en.wikipedia.org/wiki/DVB-RCS) as a standard for Satellite Uplinks, allowing in theory for a multi-vendor & multi-provider market, including different [Satellite Modems](https://en.wikipedia.org/wiki/Satellite_modem).
+    - It is [being used by SES Broadband](https://en.wikipedia.org/wiki/SES_Broadband#Technology) for their two-way satellite internet service.
+- [DVB-CA](https://en.wikipedia.org/wiki/Conditional_access) as a common yet ultimately insecure system due to using weak [CSA encryption](https://en.wikipedia.org/wiki/Common_Scrambling_Algorithm) and only modularizing the key Generator per [DVB-CI Standard](https://en.wikipedia.org/wiki/Common_Interface).
+#### [ATSC](https://en.wikipedia.org/wiki/ATSC_standards)
+- Most notably for using [8VSB](https://en.wikipedia.org/wiki/8VSB) as modulation system.
+#### [BISS](https://en.wikipedia.org/wiki/Basic_Interoperable_Scrambling_System)
+- As an [EBU](https://en.wikipedia.org/wiki/European_Broadcasting_Union) Standard ([TECH-3292](https://tech.ebu.ch/docs/tech/tech3292.pdf)) that provides an easy way to setup scrambled [SNG](https://en.wikipedia.org/wiki/Satellite_truck) feeds.
+### Products
+#### [PowerVu](https://en.wikipedia.org/wiki/PowerVu)
+- For it's per-device encryption keys.
+#### [SES Broadband](https://en.wikipedia.org/wiki/SES_Broadband)
+Two-Way Satellite Internet using [DVB-RCS](https://en.wikipedia.org/wiki/DVB-RCS).
+#### [tooway](https://en.wikipedia.org/wiki/Tooway)
+- Using [Eutelsat](https://en.wikipedia.org/wiki/Eutelsat)'s Satellites for Ku-Band two-way satellite internet as well as 
+- [ViaSat KA-SAT](https://en.wikipedia.org/wiki/KA-SAT) which utilizes 82 different spotbeams with 237 MHz wide transponders, allowing for 475 Mbit/s per spotbeam and due to frequency reuseage, up to 90 Gbit/s of total aggregated bandwith.
+  - It uses a modified implementation of [DOCSIS](https://en.wikipedia.org/wiki/DOCSIS) to facilitate the control and bandwith allocations for each [CPE](https://en.wikipedia.org/wiki/Customer-premises_equipment).
+    - Basically acting like [Cable Internet](https://en.wikipedia.org/wiki/Cable_Internet_access) over satellite - abeit with high pings due to being hosted on a GSO.
