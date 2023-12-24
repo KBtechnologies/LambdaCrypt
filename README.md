@@ -1,5 +1,4 @@
 # LambdaCrypt
-
 ### A versatile high-bandwith encryption system
 
 ---
@@ -44,7 +43,7 @@ Most [Videoconferencing](https://en.wikipedia.org/wiki/Videotelephony#Videoconfe
 ###
 
 ---
-## FAQs
+## [FAQs](/docs/faq.md)
 
 ---
 
