@@ -1,4 +1,5 @@
 # LambdaCrypt
+
 ### A versatile high-bandwith encryption system
 
 ---
@@ -43,6 +44,9 @@ Most [Videoconferencing](https://en.wikipedia.org/wiki/Videotelephony#Videoconfe
 ###
 
 ---
+## FAQs
+
+---
 
 ## Acknowledgements
 ### Standards
@@ -76,3 +80,5 @@ Two-Way Satellite Internet using [DVB-RCS](https://en.wikipedia.org/wiki/DVB-RCS
 - [ViaSat KA-SAT](https://en.wikipedia.org/wiki/KA-SAT) on [Ka-Band](https://en.wikipedia.org/wiki/Ka_band) which utilizes 82 different spotbeams with 237 MHz wide transponders, allowing for 475 Mbit/s per spotbeam and due to frequency reuseage, up to 90 Gbit/s of total aggregated bandwith.
   - It uses a modified implementation of [DOCSIS](https://en.wikipedia.org/wiki/DOCSIS) to facilitate the control and bandwith allocations for each [CPE](https://en.wikipedia.org/wiki/Customer-premises_equipment).
     - Basically acting like [Cable Internet](https://en.wikipedia.org/wiki/Cable_Internet_access) over satellite - abeit with high pings due to being hosted on a [GSO](https://en.wikipedia.org/wiki/Geostationary_orbit).
+
+---
