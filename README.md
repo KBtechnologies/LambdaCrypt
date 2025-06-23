@@ -80,4 +80,23 @@ Two-Way Satellite Internet using [DVB-RCS](https://en.wikipedia.org/wiki/DVB-RCS
   - It uses a modified implementation of [DOCSIS](https://en.wikipedia.org/wiki/DOCSIS) to facilitate the control and bandwith allocations for each [CPE](https://en.wikipedia.org/wiki/Customer-premises_equipment).
     - Basically acting like [Cable Internet](https://en.wikipedia.org/wiki/Cable_Internet_access) over satellite - abeit with high pings due to being hosted on a [GSO](https://en.wikipedia.org/wiki/Geostationary_orbit).
 
+###
+####  [BMAIL](https://www.mncvision.id/userfiles/image/how%20to%20connect%20bmail.jpg)
+[MNC Vision](https://www.mncvision.id/faq)'s proprietary *"Broadcast Mail"* system that they run on their S-band based [Pay-Tv system](https://en.wikipedia.org/wiki/MNC_Vision#Early_operational).
+- It allegedly allows sending subscribers individual messages (i.e. reminding them of their upcoming billing cycle).
+
+###
+####  [Blockstream Satellite](https://blockstream.com/satellite/)
+- A commercial datacasting service that is paid for with [bitcoin lightning](https://blockstream.com/satellite-api/) and controlled entirely via [it's own API](https://blockstream.com/satellite-api-documentation/).
+  - Senders are bidding for bandwith on the service to get their transmission send across [all their leased satellite bandwith](https://blockstream.com/satellite/).
+
+###
+####  [Othernet](https://en.wikipedia.org/wiki/Othernet)
+Another datacasting provider using commercially available bandwith.
+
+##
+### Projects
+####  [Toosheh](https://en.wikipedia.org/wiki/Toosheh)
+A [datacasting](https://en.wikipedia.org/wiki/Datacasting) Service aimed at providing people in Iran with unfiltered information from a Satellite that is relatively high on the horizon, making it easier to covertly recieve it and harder to combat recieval with electronic warfare.
+
 ---
